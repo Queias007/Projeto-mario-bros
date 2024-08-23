@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+img {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+button {
+    color: white;
+    background-color: #C51111;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+body {
+    height: 100vh;
+}
+
+.logo-mario {
+    height: 350px;
+}
+
+.caixa-principal {
+    width: 40%;
+}
+
+.caixa-video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+
+video {
+    width: 100vw;
+
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 100px;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.logo-header a:hover {
+    color: #C51111;
+    font-size: 26px;
+    transition: 0.4s ease-in-out;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.logo-header img {
+    margin-top: 0px;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+
+}
+
+.logo-header a {
+    color: white;
+    align-items: center;
+}
+
+.button-contato:hover {
+
+    transition: 0.4s ease-in-out;
+    background-color: #18D80F;
+    font-size: 15px;
+}
+
+.formulario-fale-conosco {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    padding: 30px;
+    border-radius: 5px;
+    gap: 20px;
+    top: 30%;
+    left: -315px;
+
+}
+
+input {
+    height: 40px;
+    border-radius: 6px;
+    padding-left: 5px;
+    border: 1px solid grey;
+    outline-color: #18D80F;
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    outline-color: #18D80F;
+    padding-left: 5px;
+
+}
+.botao-fechar{
+    color: white;
+    font-size: 12px;
+}
+.mascara-formulario{
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+@media(max-width: 1100px){
+    p {
+        display: none;
+    }
+
+    .caixa-mae{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .caixa-principal{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    .logo-header {
+        display: none;
+    }
+}
+
+
+
