@@ -141,11 +141,13 @@ textarea {
     padding-left: 5px;
 
 }
-.botao-fechar{
+
+.botao-fechar {
     color: white;
     font-size: 12px;
 }
-.mascara-formulario{
+
+.mascara-formulario {
     visibility: hidden;
     position: fixed;
     top: 0;
@@ -153,17 +155,18 @@ textarea {
     height: 100vh;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 }
-@media(max-width: 1100px){
+
+@media(max-width: 1100px) {
     p {
         display: none;
     }
 
-    .caixa-mae{
+    .caixa-mae {
         flex-direction: column;
         padding: 10px;
     }
 
-    .caixa-principal{
+    .caixa-principal {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -177,6 +180,3 @@ textarea {
         display: none;
     }
 }
-
-
-
